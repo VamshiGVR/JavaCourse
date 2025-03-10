@@ -1,0 +1,10 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "Topics_Course/4.ControlOperations",
+        "Topics_Course/3.Operators",
+        "Topics_Course/2.Variables&DataTypes",
+        "Topics_Course/1.Basic",
+        "Topics_Course/5.Functions&Methods"
+    ]
+}
