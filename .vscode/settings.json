@@ -1,11 +1,12 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
+        "Topics_Course/3.0.JavaClasses/3.8.DateTime",
         "Topics_Course/3.0.JavaClasses/3.7.Enums",
         "Topics_Course/3.0.JavaClasses/3.6.inheritance",
         "Projects/FormMatrix",
         "Projects/Calculator",
         "Projects/AvgCalAge",
-        "Topics_Course/3.0.JavaClasses/3.8.DateTime"
+        "Topics_Course/4.0.DataStructures"
     ]
 }
