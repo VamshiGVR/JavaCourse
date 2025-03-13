@@ -2,6 +2,8 @@
 
 ## Java Topics
 
+![image](https://github.com/user-attachments/assets/75e6050b-09d4-4ba8-9c94-66e6124e1757)
+
 1. Java Syntax & Structure  
 2. Data Types & Variables  
 3. Operators (Arithmetic, Logical, Bitwise, etc.)  
