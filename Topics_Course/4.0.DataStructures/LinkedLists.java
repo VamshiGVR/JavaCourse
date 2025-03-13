@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 public class LinkedLists {
     public static void main(String[] args) {
-        LinkedList<Integer> Numbers = new LinkedList<Integer>();
+        LinkedList<Integer> Numbers = new LinkedList<>();
         Numbers.add(1);
         Numbers.add(2);
         Numbers.add(3);

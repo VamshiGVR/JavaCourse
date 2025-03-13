@@ -3,7 +3,7 @@ import java.util.Collections;
 
 public class ArrayLists {
     public static void main(String[] args) {
-        ArrayList<String>cars = new ArrayList<String>();
+        ArrayList<String>cars = new ArrayList<>();
         //Add
         cars.add("Volvo");
         cars.add("Tata");
@@ -41,7 +41,7 @@ public class ArrayLists {
         System.out.println();
 
 
-        ArrayList<Integer> Numbers = new ArrayList<Integer>();
+        ArrayList<Integer> Numbers = new ArrayList<>();
         Numbers.add(40);
         Numbers.add(90);
         Numbers.add(50);
