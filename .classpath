@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Projects/AvgCalAge"/>
+	<classpathentry kind="src" path="Projects/Calculator"/>
+	<classpathentry kind="src" path="Projects/CountWords"/>
+	<classpathentry kind="src" path="Projects/FormMatrix"/>
+	<classpathentry kind="src" path="Spring_Course/demo/demo/src/main/java"/>
+	<classpathentry kind="src" path="Spring_Course/demo/demo/src/test/java"/>
+	<classpathentry kind="src" path="Topics_Course/1.0.Tutorials/1.1.Basic"/>
+	<classpathentry kind="src" path="Topics_Course/1.0.Tutorials/1.2.Variables&amp;DataTypes"/>
+	<classpathentry kind="src" path="Topics_Course/1.0.Tutorials/1.3.Operators"/>
+	<classpathentry kind="src" path="Topics_Course/1.0.Tutorials/1.4.ControlOperations"/>
+	<classpathentry kind="src" path="Topics_Course/1.0.Tutorials/1.5.Math"/>
+	<classpathentry kind="src" path="Topics_Course/1.0.Tutorials/1.6.Arrays&amp;Lists"/>
+	<classpathentry kind="src" path="Topics_Course/2.0.JavaMethod/2.1.Functions&amp;Methods"/>
+	<classpathentry kind="src" path="Topics_Course/2.0.JavaMethod/2.2.Functions&amp;Methods"/>
+	<classpathentry kind="src" path="Topics_Course/3.0.JavaClasses/3.1.BasicClass"/>
+	<classpathentry kind="src" path="Topics_Course/3.0.JavaClasses/3.2.MutipleClass.java"/>
+	<classpathentry kind="src" path="Topics_Course/3.0.JavaClasses/3.3.Constructor.java"/>
+	<classpathentry kind="src" path="Topics_Course/3.0.JavaClasses/3.4.Setter&amp;Getter"/>
+	<classpathentry kind="src" path="Topics_Course/3.0.JavaClasses/3.5.Packages-Api&apos;s"/>
+	<classpathentry kind="src" path="Topics_Course/3.0.JavaClasses/3.6.inheritance"/>
+	<classpathentry kind="src" path="Topics_Course/3.0.JavaClasses/3.7.Enums"/>
+	<classpathentry kind="src" path="Topics_Course/3.0.JavaClasses/3.8.DateTime"/>
+	<classpathentry kind="src" path="Topics_Course/4.0.DataStructures"/>
+	<classpathentry kind="src" path="Topics_Course/5.0.Advance"/>
+	<classpathentry kind="output" path="Spring_Course/demo/demo/target/classes"/>
+</classpath>
