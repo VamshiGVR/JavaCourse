@@ -7,12 +7,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -25,14 +21,59 @@ public class Employee {
 	private Long id;
 	
 	@Column(name="FIRST_NAME")
-	private String FirstName;
+	private String firstName;
 	
 	@Column(name="LAST_NAME")
-	private String LastName;
+	private String lastName;
 
-	@Column(name="EMAIL_ID", nullable=false, unique =true)
+	@Column(name="EMAIL_ID")
 	private String email;
 	
-	@Column(name="TEL_NO")
-	private int phoneNumber;
+	@Column(name="PHONE_NUMBER")
+	private String phoneNumber;
+	
+	//Getter
+	public Long getId() {
+		return id;
+	}
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	
+	public String getLastName() {
+		return lastName;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+	
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+	//Setter
+	public void setId(Long i) {
+		this.id= i;
+	}
+	
+	public void setFirstName(String firstName) {
+		this.firstName =firstName;
+	}
+	
+	public void setLastName(String lastName) {
+		this.lastName =lastName;
+	}
+	
+	public void setEmail(String email) {
+		this.email =email;
+	}
+	
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber =phoneNumber;
+	}
+	
 }
+
+
+	
