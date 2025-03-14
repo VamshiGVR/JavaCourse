@@ -17,7 +17,9 @@ public class HashSets {
         System.out.println("Removed");
         }
         else
+        {
         System.out.println(cars);
+        }
         cars.clear();
         System.out.println(cars);
     

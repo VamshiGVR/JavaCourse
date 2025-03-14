@@ -1,7 +1,5 @@
 package com.MangementEmployees.EMS.entity;
 
-import com.MangementEmployees.EMS.repository.EmployeeRepository;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,9 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -22,7 +18,7 @@ public class Employee {
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	@Column(name="ID")
-	private int id;
+	private Long id;
 	
 	@Column(name="FIRST_NAME")
 	private String firstName;
@@ -30,14 +26,14 @@ public class Employee {
 	@Column(name="LAST_NAME")
 	private String lastName;
 
-	@Column(name="EMAIL_ID", unique =true)
+	@Column(name="EMAIL_ID")
 	private String email;
 	
 	@Column(name="PHONE_NUMBER")
 	private String phoneNumber;
 	
 	//Getter
-	public int getId() {
+	public Long getId() {
 		return id;
 	}
 	
@@ -57,7 +53,7 @@ public class Employee {
 		return phoneNumber;
 	}
 	//Setter
-	public void setId(int i) {
+	public void setId(Long i) {
 		this.id= i;
 	}
 	
@@ -77,24 +73,7 @@ public class Employee {
 		this.phoneNumber =phoneNumber;
 	}
 	
-	
-	
-	private EmployeeRepository employeeRepository;
-	
-	public Employee(EmployeeRepository employeeRepository) {
-		this.employeeRepository = employeeRepository;
-	}
-	public void addEmploye() {
-		Employee employee = new Employee(employeeRepository);
-		employee.setId(1);
-		employee.setFirstName("MU");
-		employee.setLastName("MU");
-		employee.setEmail("MUMU@gmail.com1");
-		employee.setPhoneNumber("1231231234");
-		employeeRepository.save(employee);
-		}
-
-	}
+}
 
 
 	
