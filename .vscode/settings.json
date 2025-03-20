@@ -8,5 +8,6 @@
         "Projects/Calculator",
         "Projects/AvgCalAge",
         "Topics_Course/4.0.DataStructures"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
