@@ -1,3 +1,5 @@
+@Autowired : USED TO CREATE OBJECT OF AN CLASS DECLARED WITH COMPONENT.
+
 @Controller 
 @RestController
 @Setter
@@ -5,7 +7,6 @@
 @Getter
 @ResposneBody
 @ResponseParams
-@Autowired
 @Component
 @Value
 @Configuration
