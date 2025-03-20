@@ -1,5 +1,7 @@
 package com.MangementEmployees.EMS.service;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import com.MangementEmployees.EMS.entity.Employee;
@@ -21,6 +23,10 @@ public class EmployeeService {
 	
 	public Employee readEmployee(Employee employee) {
 		return employeeRepository.findById(employee.getId()).orElseThrow(()-> new RuntimeException("Employee not found"));
+	}
+	
+	public List<Employee> readEmployees() {
+		return employeeRepository.findAll();
 	}
 	
 	public String updateEmployee(Employee employee) {

@@ -30,6 +30,11 @@ public class EmployeeController {
 		return employeeService.readEmployee(employee);
 	}
 	
+	@GetMapping("/ReadAll")
+	public Employee readEmployees(Employee employee) {
+		return employeeService.readEmployee(employee);
+	}
+	
 	@PutMapping("/Update")
 	public String updateEmployee(@RequestBody Employee employee) {
 		return employeeService.updateEmployee(employee);	
